@@ -80,16 +80,24 @@ body{
 .about2{
     width: 600px;
     height: 370px;
-    background-color: rgba(128, 110, 93, 0.63);
+    background-color: rgba(128, 110, 93, 0.37);
     margin-left: 70px;
     margin-top: 150px;
     border-radius: 10px;
     display:flex;
+    flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    border: 2px solid rgb(218, 218, 218);
 }
 
-
+.logos{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
 
 
 .facebook{
@@ -102,6 +110,7 @@ body{
     margin-right: 40px;
     transition: 0.5s ease-in-out 0.2s;
     border-radius: 10px;
+    border:2px solid white;
 }
 
 .linkedin{
@@ -114,6 +123,7 @@ body{
     margin-right: 40px;
     transition: 0.5s ease-in-out 0.2s;
     border-radius: 10px;
+    border:2px solid white;
 }
 
 
@@ -121,10 +131,10 @@ body{
     background-image: url( './Photos/valentina.jpeg')  ; 
     height: 200px;
     width: 200px;
+    border: 2px solid white;
     background-position: center;
     background-size: cover;
     display: inline-block;
-    margin-right: 40px;
     transition: 0.5s ease-in-out 0.2s;
     border-radius: 100px;
     margin-bottom: 100px;

@@ -67,6 +67,65 @@ body{
     color: rgba(116, 124, 139, 0.932);
 }
 
+
+
+.about{
+    width:auto;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about2{
+    width: 600px;
+    height: 370px;
+    background-color: rgba(117, 115, 115, 0.705);
+    margin-top: 130px;
+    margin-right: 740px;
+    border-radius: 10px;
+}
+
+
+
+
+.facebook{
+    background-image: url( './Photos/facebook.png')  ; 
+    height: 53px;
+    width: 53px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 40px;
+    transition: 0.5s ease-in-out 0.2s;
+    
+    border-radius: 10px;
+   
+    
+}
+
+.linkedin{
+    background-image: url( './Photos/linkedin.png')  ; 
+    height: 53px;
+    width: 53px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 40px;
+    transition: 0.5s ease-in-out 0.2s;
+   
+    border-radius: 10px;
+   
+    
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 1025px) {
 
     

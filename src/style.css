@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
+    background-size: cover;
+   
+}
+
+
+.navbar {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+
+.link{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'verdana';
+    text-decoration: none;
+    margin: 28px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.link:hover {
+    color: rgb(96, 97, 97)
+}
+
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: auto;
+}
+
+.homeText{
+    font-family: "bookman";
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.intro{
+    font-size: 37px;
+    color: rgba(117, 115, 115, 0.932);
+}
+
+.intro2{
+    font-size: 45px;
+    color: rgba(116, 124, 139, 0.932);
+}

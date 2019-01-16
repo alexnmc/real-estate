@@ -42,8 +42,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
-    width: auto;
+    
+    
 }
 
 .homeText{
@@ -56,11 +56,13 @@ body{
 }
 
 .intro{
+    margin-top: 10px;
     font-size: 37px;
     color: rgba(117, 115, 115, 0.932);
 }
 
 .intro2{
+    margin-top: 310px;
     font-size: 45px;
     color: rgba(116, 124, 139, 0.932);
 }

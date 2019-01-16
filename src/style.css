@@ -66,3 +66,17 @@ body{
     font-size: 45px;
     color: rgba(116, 124, 139, 0.932);
 }
+
+@media only screen and (max-width: 1025px) {
+
+    .intro,
+    .intro2{
+        font-size :30px;
+    }
+    
+    
+    .navbar{
+        font-size: 16px;
+    }
+
+}

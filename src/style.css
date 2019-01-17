@@ -9,6 +9,16 @@ body{
    
 }
 
+.home{
+    height:auto;
+}
+.about{
+    margin-top:400px;
+}
+
+.properties{
+    height: 900px;
+}
 
 .navbar {
     width: 100%;
@@ -126,6 +136,8 @@ body{
     border: 2px solid rgb(218, 218, 218);
 }
 
+
+
 .logos{
 display:flex;
 flex-direction: row;
@@ -147,10 +159,15 @@ width: 100%;
     border-radius: 10px;
     border:2px solid white;
 }
+
+
+
 .facebook:hover{
     height: 50px;
     width: 50px;
 }
+
+
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
@@ -164,6 +181,9 @@ width: 100%;
     border-radius: 10px;
     border:2px solid white;
 }
+
+
+
 
 .linkedin:hover{
 

@@ -59,14 +59,49 @@ body{
     margin-top: 10px;
     font-size: 37px;
     color: rgba(117, 115, 115, 0.932);
+    animation: translateToPosition 3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .intro2{
     margin-top: 310px;
     font-size: 45px;
     color: rgba(116, 124, 139, 0.932);
+    animation: translateToPosition1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+
+@keyframes translateToPosition{
+    0%{
+        transform: translateX(-1000px);
+        letter-spacing: 25px;
+        opacity: 0.2;
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+        letter-spacing: 0;
+        opacity: 1;
+    }
+}
+
+
+@keyframes translateToPosition1{
+    0%{
+        transform: translateX(1000px);
+        letter-spacing: 15px;
+        opacity: 0.2;
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0);
+        letter-spacing: 0;
+        opacity: 1;
+    }
+}
 
 
 .about{
@@ -112,6 +147,10 @@ width: 100%;
     border-radius: 10px;
     border:2px solid white;
 }
+.facebook:hover{
+    height: 50px;
+    width: 50px;
+}
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
@@ -125,6 +164,14 @@ width: 100%;
     border-radius: 10px;
     border:2px solid white;
 }
+
+.linkedin:hover{
+
+    height: 50px;
+    width: 50px;
+   
+}
+
 
 
 .photo{

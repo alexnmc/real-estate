@@ -3,6 +3,7 @@ import React from 'react'
 const About = props => {
     return (
         <div className="about">
+        
         <div className="about2">
        
         <div className = "photo"></div>   

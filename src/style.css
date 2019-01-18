@@ -14,15 +14,22 @@ body{
 }
 .about{
     margin-top:400px;
+    margin-bottom: 200px;
 }
 
 .properties{
-    height: 900px;
+    height: 737px;
+    width:auto;
+    margin:auto;
+    
 }
 
 .navbar {
     width: 100%;
-    height: 0px;
+    height: 80px;
+    border-bottom: 2px solid rgb(124, 124, 124);
+   
+    background-color: rgba(255, 255, 255, 0.986);
     display: flex;
     justify-content: flex-start;
     position: fixed;
@@ -30,13 +37,14 @@ body{
 
 
 .link{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'verdana';
     text-decoration: none;
     margin: 28px;
     margin-top: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(146, 145, 145);
+    position: relative;
 }
 
 
@@ -119,6 +127,7 @@ body{
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
+    height:700px;
 }
 
 
@@ -196,8 +205,8 @@ width: 100%;
 
 .photo{
     background-image: url( './Photos/valentina.jpeg')  ; 
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border: 2px solid white;
     background-position: center;
     background-size: cover;
@@ -217,10 +226,14 @@ width: 100%;
 
 @media only screen and (max-width: 1025px) {
 
-    
+    body{
+        background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
+        background-size: contain;
+       
+    }
 
     .intro2{
-        margin-top:140px;
+        margin-top:90px;
         font-size: 17px;
     }
     
@@ -235,4 +248,113 @@ width: 100%;
         
     }
 
+    .about2{
+        margin:auto;
+        margin-top:0px;
+        margin-bottom: 0px;
+        background-color: rgb(124, 118, 111);
+    }
+
+    .home{
+        height: 550px;
+    }
+
+    .main{
+        height: 0px;
+
+    }
+    .body{
+        height: 100px;
+    }
+     .properties{
+         height: 500px;
+         width: auto;
+     }
 }
+
+
+
+
+html,body {
+
+    width:100%;
+    height:100%;
+  }
+  body {
+   margin: 0;
+  }
+  .container 
+  {
+  width:100%;
+  height:100%;
+  }
+ 
+ 
+ 
+ 
+  #slideshow {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width:100%;
+    height:100%;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  .elemnt,.elemnt1,.elemnt2,.elemnt3 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  }
+  
+  
+  span{
+    
+    color: rgb(49, 49, 49);
+    box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+    font-size:4em;
+    
+  }
+  .elemnt {
+    animation: xfade 16s 8s infinite;
+    background-image: url('Photos/picture1.jpg');
+    
+  }
+  .elemnt1 {
+    animation: xfade 16s 6s infinite;
+    background-image: url('Photos/picture2.jpg');
+   
+  }
+  .elemnt2 {
+    animation: xfade 16s 2s infinite;
+    background-image: url('Photos/picture3.jpg');
+   
+  }
+  .elemnt3 {
+    animation: xfade 16s 0s infinite;
+    background-image: url('Photos/picture5.jpg');
+   
+  }
+ 
+ 
+  @keyframes xfade{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+ 

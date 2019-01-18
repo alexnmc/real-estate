@@ -9,7 +9,7 @@ import Contact from './Contact'
 class App extends Component {
     render(){
         return (
-            <div>
+            <div className = "main">
                 <Navbar />
                 <Home/>
                 <About/>

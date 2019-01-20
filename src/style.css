@@ -38,14 +38,14 @@ body{
     text-decoration: none;
     margin: 28px;
     margin-top: 30px;
-    color: rgb(146, 145, 145);
+    color: rgb(46, 46, 46);
     position: relative;
 }
 
 
 
 .link:hover {
-    color: rgb(96, 97, 97)
+    color: rgb(184, 184, 184)
 }
 
 
@@ -72,14 +72,14 @@ body{
 .intro{
     margin-top: 10px;
     font-size: 37px;
-    color: rgba(85, 83, 83, 0.932);
+    color: rgba(85, 83, 83, 0.815);
     animation: translateToPosition 3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .intro2{
     margin-top: -50px;
     font-size: 45px;
-    color: rgba(99, 105, 117, 0.932);
+    color: rgba(99, 105, 117, 0.733);
     animation: translateToPosition1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
@@ -134,10 +134,10 @@ body{
 .about2{
     width: 600px;
     height: 470px;
-    background-color: rgb(90, 90, 90);
+    background-color: rgba(20, 33, 49, 0.931);
     margin-left: 70px;
     margin-top: 150px;
-    border-radius: 10px;
+    border-radius: 27px;
     display:flex;
     position: relative;
     flex-direction: column;

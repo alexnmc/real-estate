@@ -72,14 +72,14 @@ body{
 .intro{
     margin-top: 10px;
     font-size: 37px;
-    color: rgba(117, 115, 115, 0.932);
+    color: rgba(85, 83, 83, 0.932);
     animation: translateToPosition 3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .intro2{
     margin-top: -50px;
     font-size: 45px;
-    color: rgba(116, 124, 139, 0.932);
+    color: rgba(99, 105, 117, 0.932);
     animation: translateToPosition1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
@@ -126,7 +126,7 @@ body{
     height: 830px;
     width: 100%;
     border-top: 60px solid rgba(46, 46, 46, 0.404);
-    border-bottom: 3px solid rgb(46, 46, 46);
+    border-bottom: 3px solid rgb(80, 80, 80);
     
 }
 

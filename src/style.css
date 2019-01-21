@@ -123,10 +123,10 @@ body{
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 830px;
+    height: 880px;
     width: 100%;
-    border-top: 60px solid rgba(46, 46, 46, 0.404);
-    border-bottom: 3px solid rgb(80, 80, 80);
+    border-top: 60px solid rgba(46, 46, 46, 0);
+    border-bottom: 60px solid rgba(46, 46, 46, 0);
     
 }
 

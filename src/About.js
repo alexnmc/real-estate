@@ -3,7 +3,7 @@ import React from 'react'
 const About = props => {
     return (
         <div className="about" id = '2'  >
-        
+                 
                 <div  id="slideshow">
                     
                     <div class="elemnt"><span>Rentals</span></div>

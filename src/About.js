@@ -4,13 +4,12 @@ const About = props => {
     return (
         <div className="about" id = '2'  >
                  
-                <div  id="slideshow">
+                <div  id="container">
                     
-                    <div class="elemnt"><span>Rentals</span></div>
-                    <div class="elemnt1"><span>Exclusive Listings</span></div>
-                    <div class="elemnt2"><span>Luxury Living</span></div>
-                    <div class="elemnt3"><span>Sales</span></div>
-                
+                <div id = "image4">BEST LISTINGS</div>
+                <div id = "image3">LUXURY LIVING</div>
+                <div id = "image2">RENTALS</div>
+                <div id = "image1">SALES</div>
             
                 
                 <div className="about2">

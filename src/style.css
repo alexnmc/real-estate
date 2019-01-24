@@ -6,6 +6,7 @@
 body{
     background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
     background-size: cover;
+    
    
 }
 
@@ -233,10 +234,16 @@ body{
         background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
         background-size: contain;
        
+        
+       
+    }
+
+    .navbar{
+        width: 100%;
     }
 
     .intro2{
-        margin-top:90px;
+        
         font-size: 17px;
     }
     
@@ -248,37 +255,65 @@ body{
     
     .link{
         font-size: 16px;
+        margin: auto;
         
+    }
+
+
+    .about{
+        margin-top: 80px;
+        border-top:0px;
+        height: 600px;
+        align-items: flex;
+        flex-direction: column;
     }
 
     .about2{
         margin:auto;
         margin-top:0px;
         margin-bottom: 0px;
-        background-color: rgb(124, 118, 111);
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 0px;
+        height: 400px;
+        position: absolute;
     }
 
+    
+    
     .home{
-        height: 830px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: auto;
+        
     }
 
     
-
+     #image,
+     #image1,
+     #image2,
+     #image3,
+     #image4{
+         
+         margin-top:300px;
+         
+        
+     }
     
+     
+     
+     
+     .contact{
+         height: 900px;
+     }
 }
 
 
 
 
-html,body {
 
-    width:100%;
-    height:100%;
-  }
-  body {
-   margin: 0;
-  }
-  
  
  
  
@@ -297,18 +332,7 @@ html,body {
   
   
   
-  .elemnt,.elemnt1,.elemnt2,.elemnt3 {
-  position: absolute;
-  padding-top: 40px;
-  left: 0;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
- 
-  }
+  
   
   
   @keyframes imageSwap {

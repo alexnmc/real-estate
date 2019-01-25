@@ -127,9 +127,9 @@ body{
     justify-content: flex-start;
     height: 880px;
     width: 100%;
-    border-top: 60px solid rgba(211, 211, 211, 0.993);
+    border-top: 60px solid rgba(92, 92, 92, 0);
     border-bottom: 10px solid rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(58, 52, 52, 0.431);
     
 }
 
@@ -146,7 +146,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    border: 2px solid rgb(35, 64, 99);
+    border: 3px solid rgb(195, 195, 195);
 }
 
 
@@ -208,7 +208,7 @@ body{
 
 
 .photo{
-    background-image: url( './Photos/valentina.jpeg')  ; 
+    background-image: url( '')  ; 
     height: 100px;
     width: 100px;
     border: 2px solid white;
@@ -370,7 +370,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 32s;
+      animation-duration: 30s;
       animation-delay: 1;
     }
     #image2 {
@@ -387,7 +387,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 32s;
+      animation-duration: 30s;
       animation-delay: 8s;
     }
     #image3 {
@@ -404,7 +404,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 32s;
+      animation-duration: 30s;
       animation-delay: 16s;
     }
     #image4 {
@@ -421,6 +421,6 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 32s;
+      animation-duration: 30s;
       animation-delay: 24s;
     }

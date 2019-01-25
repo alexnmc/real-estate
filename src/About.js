@@ -14,7 +14,7 @@ const About = props => {
                 
                 <div className="about2">
                 
-                    <div className = "photo"></div>   
+                    <div className = "photo">Photo</div>   
                     
                     <div className = "logos">
                     

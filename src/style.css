@@ -132,7 +132,10 @@ body{
     width: 100%;
     border-top: 60px solid rgba(92, 92, 92, 0);
     border-bottom: 10px solid rgb(255, 255, 255);
-    background-color: rgba(58, 52, 52, 0.431);
+    background-color: rgba(255, 255, 255, 0.815);
+    /* background-image: url('./Photos/beach.jpg'); */
+    background-size: cover;
+   
     
 }
 
@@ -373,7 +376,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 30s;
+      animation-duration: 32s;
       animation-delay: 1;
     }
     #image2 {
@@ -390,7 +393,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 30s;
+      animation-duration: 32s;
       animation-delay: 8s;
     }
     #image3 {
@@ -407,7 +410,7 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 30s;
+      animation-duration: 32s;
       animation-delay: 16s;
     }
     #image4 {
@@ -424,6 +427,6 @@ body{
       animation-name: imageSwap;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
-      animation-duration: 30s;
+      animation-duration: 32s;
       animation-delay: 24s;
     }

@@ -243,9 +243,6 @@ body{
     body{
         background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
         background-size: contain;
-       
-        
-       
     }
 
     .navbar{
@@ -397,7 +394,7 @@ body{
     #image3 {
       height: 100%;
       width: 100%;
-      background-image: url('./Photos/picture4.jpg');
+      background-image: url('./Photos/pic12.jpg');
       background-size: cover;
       position: absolute;
       text-align: center;
@@ -414,7 +411,7 @@ body{
     #image4 {
       height: 100%;
       width: 100%;
-      background-image: url('./Photos/pic12.jpg');
+      background-image: url('./Photos/picture4.jpg');
       background-size: cover;
       position: absolute;
       text-align: center;

@@ -27,13 +27,10 @@ const About = props => {
                             </a>
                     </div>
                 
-       
                 </div> 
         
                </div>
         </div>
-        
-        
     )
 }
 

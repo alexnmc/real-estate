@@ -6,9 +6,9 @@ const About = props => {
                  
                 <div  id="container">
                     
-                <div id = "image4">YOUR DREAM HOME</div>
-                <div id = "image3">LUXURY LIVING</div>
-                <div id = "image2">RENTALS</div>
+                <div id = "image2">YOUR DREAM HOME</div>
+                <div id = "image4">LUXURY LIVING</div>
+                <div id = "image3">RENTALS</div>
                 <div id = "image1">SALES</div>
             
                 

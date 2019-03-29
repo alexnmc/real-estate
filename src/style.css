@@ -10,7 +10,7 @@ body{
 
 
 .contact{
-    height: 1000px;
+    height: 100vh;
     width:100%;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ body{
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 880px;
+    height: 100vh;
     width: 100%;
     border-top: 60px solid rgba(92, 92, 92, 0);
     border-bottom: 10px solid rgb(255, 255, 255);
@@ -263,7 +263,7 @@ body{
     .about{
         margin-top: 80px;
         border-top:0px;
-        height: 600px;
+        height: 100%;
         align-items: flex;
         flex-direction: column;
     }

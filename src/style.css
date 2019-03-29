@@ -318,13 +318,7 @@ body{
 
 
 
-
-
- 
- 
- 
- 
-  #slideshow {
+#slideshow {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -379,7 +373,7 @@ body{
       animation-duration: 32s;
       animation-delay: 1;
     }
-    #image2 {
+    #image3 {
       height: 100%;
       width: 100%;
       background-image: url('./Photos/pic10.jpg');
@@ -396,7 +390,7 @@ body{
       animation-duration: 32s;
       animation-delay: 8s;
     }
-    #image3 {
+    #image2 {
       height: 100%;
       width: 100%;
       background-image: url('./Photos/picture4.jpg');

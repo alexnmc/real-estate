@@ -6,10 +6,7 @@
 body{
     background: url('./Photos/balcony.jpg') no-repeat fixed 10%  0%;
     background-size: cover;
-    
-   
 }
-
 
 
 .contact{
@@ -53,16 +50,13 @@ body{
 }
 
 
-
-
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 830px;
-    
-    
 }
+
 
 .homeText{
     font-family: "bookman";
@@ -131,18 +125,16 @@ body{
     width: 100%;
     border-top: 60px solid rgba(92, 92, 92, 0);
     border-bottom: 10px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(189, 189, 189, 0.787);
     /* background-image: url('./Photos/beach.jpg'); */
     background-size: cover;
-   
-    
 }
 
 
 .about2{
     width: 400px;
     height: 470px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(246, 246, 246, 0.979);
     margin-left: 70px;
     margin-top: 150px;
     border-radius: 7px;
@@ -151,13 +143,15 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    border: 3px solid rgb(195, 195, 195);
-    animation: opacity 2s;
+    border: 3px solid rgb(255, 255, 255);
+    animation: opacity 8s;
+   
 }
 
 @keyframes opacity{
+    
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to { opacity: 1; }
 }
 
 
@@ -212,7 +206,6 @@ body{
 
     height: 50px;
     width: 50px;
-   
 }
 
 
@@ -298,21 +291,7 @@ body{
     }
 
     
-     #image,
-     #image1,
-     #image2,
-     #image3,
-     #image4{
-         
-         margin-top:300px;
-         
-        
-     }
-    
-     
-     
-     
-     .contact{
+    .contact{
          height: 900px;
      }
 }
@@ -332,16 +311,12 @@ body{
   
   
   
-  
-  
-  
-  
-  @keyframes imageSwap {
+@keyframes imageSwap {
     0% {
-      opacity:1;
+      opacity:0;
     }
     19% {
-      opacity:0;
+      opacity:1;
     }
     25% {
       opacity:0;
@@ -350,9 +325,10 @@ body{
       opacity:0;
     }
     100% {
-      opacity:1;
+      opacity:0;
     }
     }
+    
     #container {
      position: relative; 
      width: 100%;

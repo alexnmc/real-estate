@@ -1,13 +1,12 @@
 import React from 'react'
-import Scrollchor from 'react-scrollchor'
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <div className="navbar">
-            <Scrollchor className = 'link' to="#1">home</Scrollchor>  
-            <Scrollchor className = 'link' to="#2">about</Scrollchor>
-            <Scrollchor className = 'link' to="#3">properties</Scrollchor>
+            <Link className = 'link' to="/">Home</Link>
+            <Link className = 'link' to="/about">About</Link>
+            <Link className = 'link' to="/contact">Properties</Link>
         </div>
     )
 }

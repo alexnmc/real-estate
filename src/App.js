@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
 import About from  './About'
-import Contact from './Contact'
+import ForSale from './ForSale'
+import ForRent from './ForRent'
 
 
 class App extends Component {
@@ -14,7 +15,8 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/about" component={About}/>
-                    <Route path="/contact" component={Contact}/>
+                    <Route path="/forsale" component={ForSale}/>
+                    <Route path="/forrent" component={ForRent}/>
                 </Switch>
             </div>
         )

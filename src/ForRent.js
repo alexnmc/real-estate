@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const ForRent = () => {
     return (
         <div className="contact" id = '3'>
             COMING SOON
@@ -10,4 +10,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default ForRent

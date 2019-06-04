@@ -6,6 +6,7 @@ const Home = props => {
             <div className = "homeText">
             <p className = "intro2">Valentina Pan</p>
             <p className = "intro">Licensed Florida Real Estate Profesional</p>
+            <p className = "intro3">Miami | Fort Lauderdale | Boca Raton | West Palm Beach</p>
             </div>
         </div>
     )

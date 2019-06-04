@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactContactForm from 'react-mail-form';
 
 const About = props => {
    
@@ -7,15 +8,10 @@ const About = props => {
     return (
         <div className="about" id = '2'  >
                  
-               
-                
                 <div className="about2" >
-                
-                    <div className = "photo">Photo</div>   
-                    
+                   <div className = "photo">Photo</div>   
                     <div className = "logos">
-                    
-                            <a href = "https://www.facebook.com/Valentina-Pan-Real-Estate-Agent- 112054539337268/?ti=as">
+                           <a href = "https://www.facebook.com/Valentina-Pan-Real-Estate-Agent- 112054539337268/?ti=as">
                             <div className="facebook"></div>
                             </a>
                         
@@ -25,6 +21,11 @@ const About = props => {
                     </div>
                 
                 </div> 
+                <div className = "contact1">
+                    <h1>Contact me: </h1>
+                    <ReactContactForm  className = 'contactForm' to="nemechekalexander@gmail.com" />
+                 </div>
+
         
                
         </div>

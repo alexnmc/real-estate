@@ -9,7 +9,7 @@ const About = props => {
         <div className="about" id = '2'  >
                  
                 <div className="about2" >
-                   <div className = "photo">Photo</div>   
+                   <div className = "photo"></div>   
                     <div className = "logos">
                            <a href = "https://www.facebook.com/Valentina-Pan-Real-Estate-Agent- 112054539337268/?ti=as">
                             <div className="facebook"></div>
